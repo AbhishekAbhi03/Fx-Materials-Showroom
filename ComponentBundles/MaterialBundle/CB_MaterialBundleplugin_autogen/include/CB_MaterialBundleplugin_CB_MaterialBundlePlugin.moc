@@ -1,0 +1,157 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'CB_MaterialBundleplugin_CB_MaterialBundlePlugin.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 68 (Qt 6.7.2)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qmetatype.h>
+#include <QtCore/qplugin.h>
+
+#include <QtCore/qtmochelpers.h>
+
+#include <memory>
+
+
+#include <QtCore/qxptype_traits.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'CB_MaterialBundleplugin_CB_MaterialBundlePlugin.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 68
+#error "This file was generated using the moc from 6.7.2. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+#ifndef Q_CONSTINIT
+#define Q_CONSTINIT
+#endif
+
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+QT_WARNING_DISABLE_GCC("-Wuseless-cast")
+namespace {
+
+#ifdef QT_MOC_HAS_STRINGDATA
+struct qt_meta_stringdata_CLASSCB_MaterialBundlePluginENDCLASS_t {};
+constexpr auto qt_meta_stringdata_CLASSCB_MaterialBundlePluginENDCLASS = QtMocHelpers::stringData(
+    "CB_MaterialBundlePlugin"
+);
+#else  // !QT_MOC_HAS_STRINGDATA
+#error "qtmochelpers.h not found or too old."
+#endif // !QT_MOC_HAS_STRINGDATA
+} // unnamed namespace
+
+Q_CONSTINIT static const uint qt_meta_data_CLASSCB_MaterialBundlePluginENDCLASS[] = {
+
+ // content:
+      12,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+Q_CONSTINIT const QMetaObject CB_MaterialBundlePlugin::staticMetaObject = { {
+    QMetaObject::SuperData::link<QQmlEngineExtensionPlugin::staticMetaObject>(),
+    qt_meta_stringdata_CLASSCB_MaterialBundlePluginENDCLASS.offsetsAndSizes,
+    qt_meta_data_CLASSCB_MaterialBundlePluginENDCLASS,
+    qt_static_metacall,
+    nullptr,
+    qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSCB_MaterialBundlePluginENDCLASS_t,
+        // Q_OBJECT / Q_GADGET
+        QtPrivate::TypeAndForceComplete<CB_MaterialBundlePlugin, std::true_type>
+    >,
+    nullptr
+} };
+
+void CB_MaterialBundlePlugin::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    (void)_o;
+    (void)_id;
+    (void)_c;
+    (void)_a;
+}
+
+const QMetaObject *CB_MaterialBundlePlugin::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *CB_MaterialBundlePlugin::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_CLASSCB_MaterialBundlePluginENDCLASS.stringdata0))
+        return static_cast<void*>(this);
+    return QQmlEngineExtensionPlugin::qt_metacast(_clname);
+}
+
+int CB_MaterialBundlePlugin::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QQmlEngineExtensionPlugin::qt_metacall(_c, _id, _a);
+    return _id;
+}
+
+#ifdef QT_MOC_EXPORT_PLUGIN_V2
+static constexpr unsigned char qt_pluginMetaDataV2_CB_MaterialBundlePlugin[] = {
+    0xbf, 
+    // "IID"
+    0x02,  0x78,  0x2e,  'o',  'r',  'g',  '.',  'q', 
+    't',  '-',  'p',  'r',  'o',  'j',  'e',  'c', 
+    't',  '.',  'Q',  't',  '.',  'Q',  'Q',  'm', 
+    'l',  'E',  'n',  'g',  'i',  'n',  'e',  'E', 
+    'x',  't',  'e',  'n',  's',  'i',  'o',  'n', 
+    'I',  'n',  't',  'e',  'r',  'f',  'a',  'c', 
+    'e', 
+    // "className"
+    0x03,  0x77,  'C',  'B',  '_',  'M',  'a',  't', 
+    'e',  'r',  'i',  'a',  'l',  'B',  'u',  'n', 
+    'd',  'l',  'e',  'P',  'l',  'u',  'g',  'i', 
+    'n', 
+    // command-line "uri"
+    0x63,  'u',  'r',  'i',  0x81,  0x78,  0x1f,  'C', 
+    'o',  'm',  'p',  'o',  'n',  'e',  'n',  't', 
+    'B',  'u',  'n',  'd',  'l',  'e',  's',  '.', 
+    'M',  'a',  't',  'e',  'r',  'i',  'a',  'l', 
+    'B',  'u',  'n',  'd',  'l',  'e', 
+    0xff, 
+};
+QT_MOC_EXPORT_PLUGIN_V2(CB_MaterialBundlePlugin, CB_MaterialBundlePlugin, qt_pluginMetaDataV2_CB_MaterialBundlePlugin)
+#else
+QT_PLUGIN_METADATA_SECTION
+Q_CONSTINIT static constexpr unsigned char qt_pluginMetaData_CB_MaterialBundlePlugin[] = {
+    'Q', 'T', 'M', 'E', 'T', 'A', 'D', 'A', 'T', 'A', ' ', '!',
+    // metadata version, Qt version, architectural requirements
+    0, QT_VERSION_MAJOR, QT_VERSION_MINOR, qPluginArchRequirements(),
+    0xbf, 
+    // "IID"
+    0x02,  0x78,  0x2e,  'o',  'r',  'g',  '.',  'q', 
+    't',  '-',  'p',  'r',  'o',  'j',  'e',  'c', 
+    't',  '.',  'Q',  't',  '.',  'Q',  'Q',  'm', 
+    'l',  'E',  'n',  'g',  'i',  'n',  'e',  'E', 
+    'x',  't',  'e',  'n',  's',  'i',  'o',  'n', 
+    'I',  'n',  't',  'e',  'r',  'f',  'a',  'c', 
+    'e', 
+    // "className"
+    0x03,  0x77,  'C',  'B',  '_',  'M',  'a',  't', 
+    'e',  'r',  'i',  'a',  'l',  'B',  'u',  'n', 
+    'd',  'l',  'e',  'P',  'l',  'u',  'g',  'i', 
+    'n', 
+    // command-line "uri"
+    0x63,  'u',  'r',  'i',  0x81,  0x78,  0x1f,  'C', 
+    'o',  'm',  'p',  'o',  'n',  'e',  'n',  't', 
+    'B',  'u',  'n',  'd',  'l',  'e',  's',  '.', 
+    'M',  'a',  't',  'e',  'r',  'i',  'a',  'l', 
+    'B',  'u',  'n',  'd',  'l',  'e', 
+    0xff, 
+};
+QT_MOC_EXPORT_PLUGIN(CB_MaterialBundlePlugin, CB_MaterialBundlePlugin)
+#endif  // QT_MOC_EXPORT_PLUGIN_V2
+
+QT_WARNING_POP

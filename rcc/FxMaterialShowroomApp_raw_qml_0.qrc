@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/Main/">
+    <file alias="main.qml">C:/Qt/Examples/Qt-6.7.2/demos/FX_Material_Showroom/main.qml</file>
+  </qresource>
+</RCC>
+

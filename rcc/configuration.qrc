@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="qtquickcontrols2.conf">C:/Qt/Examples/Qt-6.7.2/demos/FX_Material_Showroom/qtquickcontrols2.conf</file>
+  </qresource>
+</RCC>
+
